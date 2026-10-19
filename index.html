@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Petal & Co. | Fresh Flower Shop</title>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<input type="checkbox" id="nav-toggle" class="toggle-input">
+<input type="checkbox" id="cart-toggle" class="toggle-input">
+
+
+<header class="navbar">
+  <div class="nav-container">
+    <a href="#home" class="logo">Petal <span>&amp; Co.</span></a>
+
+    <!-- Hamburger button for mobile: it's just a <label> pointing at #nav-toggle -->
+    <label for="nav-toggle" class="hamburger">
+      <span></span><span></span><span></span>
+    </label>
+ 
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-icons">
+      <label for="cart-toggle" class="icon-btn cart-btn" title="View cart">
+        <svg viewBox="0 0 24 24"><path d="M3 4h2l2.4 12.4a2 2 0 0 0 2 1.6h8.2a2 2 0 0 0 2-1.6L21 8H6" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="10" cy="21" r="1.4" fill="currentColor"/><circle cx="18" cy="21" r="1.4" fill="currentColor"/></svg>
+        <span class="cart-count">3</span>
+      </label>
+    </div>
+  </div>
+</header>
+
+
+<section id="home" class="hero">
+  <div class="hero-text">
+    <p class="eyebrow-line">Fresh from the farm, everyday</p>
+    <h1>Flowers that say<br>what words can't.</h1>
+    <p class="hero-desc">
+      Petal &amp; Co. hand-delivers farm-fresh bouquets across Mohali and
+      Chandigarh, cut and arranged the same morning you order.
+    </p>
+    <a href="#products" class="btn btn-primary">Shop Bouquets</a>
+  </div>
+  <div class="hero-image">
+    <img src="https://images.unsplash.com/photo-1629833790673-e9d1b342a816?auto=format&fit=crop&w=1200&q=75" alt="Fresh pink and white flower bouquet">
+  </div>
+</section>
+
+
+<section id="about" class="about">
+  <div class="about-image">
+    <img src="https://images.unsplash.com/photo-1676470932768-cf78e791290d?auto=format&fit=crop&w=900&q=75" alt="A vase filled with fresh pink flowers">
+  </div>
+  <div class="about-text">
+    <p class="eyebrow-line">About Us</p>
+    <h2>Why Choose <span>Petal &amp; Co.</span></h2>
+    <p>
+      We started Petal &amp; Co. with one simple idea: flowers should feel
+      alive, not like they came off a factory line. Every bouquet is cut
+      the same day, arranged by hand, and checked for freshness before
+      it leaves our shop.
+    </p>
+    <p>
+      From birthdays to weddings, we've delivered over 5,000 bouquets
+      across Mohali and Chandigarh, and we still pack every single one
+      like it's going to someone we know.
+    </p>
+    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+  </div>
+</section>
+
+
+<section class="features">
+  <div class="feature-card">
+    <div class="feature-icon">
+      <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="14" width="24" height="18" rx="2"/><path d="M28 20h8l6 6v6h-14z"/><circle cx="14" cy="36" r="3"/><circle cx="34" cy="36" r="3"/></svg>
+    </div>
+    <h3>Free Delivery</h3>
+    <p>On every order above ₹499 within city limits</p>
+  </div>
+  <div class="feature-card">
+    <div class="feature-icon">
+      <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 24a16 16 0 1 1 4.8 11.4"/><path d="M8 32v-8h8"/></svg>
+    </div>
+    <h3>Easy Returns</h3>
+    <p>Not happy? Replacement within 24 hours, no questions</p>
+  </div>
+  <div class="feature-card">
+    <div class="feature-icon">
+      <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="18" width="36" height="24" rx="2"/><path d="M6 26h36"/><path d="M24 18v24"/><path d="M24 18c-4-8-14-6-12 1 2 6 12-1 12-1zM24 18c4-8 14-6 12 1-2 6-12-1-12-1z"/></svg>
+    </div>
+    <h3>Gift Wrapping</h3>
+    <p>Complimentary wrapping and a free message card</p>
+  </div>
+  <div class="feature-card">
+    <div class="feature-icon">
+      <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="12" width="36" height="26" rx="3"/><path d="M6 20h36"/><path d="M12 30h10"/></svg>
+    </div>
+    <h3>Secure Payment</h3>
+    <p>UPI, cards and cash on delivery, all encrypted</p>
+  </div>
+</section>
+
+
+<section id="products" class="products">
+  <p class="eyebrow-line center">Fresh Picks</p>
+  <h2 class="center">Our Latest Bouquets</h2>
+
+  <div class="product-grid">
+
+    <article class="product-card">
+      <div class="product-image">
+        <span class="badge">-20%</span>
+        <img src="https://images.unsplash.com/photo-1626572013557-0eb3f2422fd4?auto=format&fit=crop&w=700&q=75" alt="Pastel peony bunch">
+        <div class="product-overlay"><button class="btn btn-dark" type="button">Add to Cart</button></div>
+      </div>
+      <h3>Pastel Peony Bunch</h3>
+      <p class="price"><span class="price-now">₹799</span> <span class="price-old">₹999</span></p>
+    </article>
+
+    <article class="product-card">
+      <div class="product-image">
+        <span class="badge">-19%</span>
+        <img src="https://images.unsplash.com/photo-1598961111901-e64e25bc0a4c?auto=format&fit=crop&w=700&q=75" alt="Blush pink and white bouquet">
+        <div class="product-overlay"><button class="btn btn-dark" type="button">Add to Cart</button></div>
+      </div>
+      <h3>Blush Rose Bouquet</h3>
+      <p class="price"><span class="price-now">₹649</span> <span class="price-old">₹799</span></p>
+    </article>
+
+    <article class="product-card">
+      <div class="product-image">
+        <span class="badge">-15%</span>
+        <img src="https://images.unsplash.com/photo-1663156638731-7fc7a1b1b8d0?auto=format&fit=crop&w=700&q=75" alt="Sunrise basket flower arrangement">
+        <div class="product-overlay"><button class="btn btn-dark" type="button">Add to Cart</button></div>
+      </div>
+      <h3>Sunrise Basket Arrangement</h3>
+      <p class="price"><span class="price-now">₹1,099</span> <span class="price-old">₹1,299</span></p>
+    </article>
+
+    <article class="product-card">
+      <div class="product-image">
+        <span class="badge">-18%</span>
+        <img src="https://images.unsplash.com/photo-1503513883989-25ef8b2f1a53?auto=format&fit=crop&w=700&q=75" alt="Gift wrapped pink roses">
+        <div class="product-overlay"><button class="btn btn-dark" type="button">Add to Cart</button></div>
+      </div>
+      <h3>Gift Wrapped Roses</h3>
+      <p class="price"><span class="price-now">₹899</span> <span class="price-old">₹1,099</span></p>
+    </article>
+
+    <article class="product-card">
+      <div class="product-image">
+        <span class="badge">-17%</span>
+        <img src="https://images.unsplash.com/photo-1530062063719-e2d6fe70d7b8?auto=format&fit=crop&w=700&q=75" alt="Classic red rose bunch">
+        <div class="product-overlay"><button class="btn btn-dark" type="button">Add to Cart</button></div>
+      </div>
+      <h3>Classic Red Rose Bunch</h3>
+      <p class="price"><span class="price-now">₹749</span> <span class="price-old">₹899</span></p>
+    </article>
+
+    <article class="product-card">
+      <div class="product-image">
+        <span class="badge">-17%</span>
+        <img src="https://images.unsplash.com/photo-1676470932768-cf78e791290d?auto=format&fit=crop&w=700&q=75" alt="Deluxe vase flower arrangement">
+        <div class="product-overlay"><button class="btn btn-dark" type="button">Add to Cart</button></div>
+      </div>
+      <h3>Vase Arrangement Deluxe</h3>
+      <p class="price"><span class="price-now">₹1,499</span> <span class="price-old">₹1,799</span></p>
+    </article>
+
+  </div>
+</section>
+
+
+<section id="reviews" class="reviews">
+  <p class="eyebrow-line center">Testimonials</p>
+  <h2 class="center">What Our Customers Say</h2>
+
+  <div class="review-grid">
+
+    <article class="review-card">
+      <div class="stars">★★★★★</div>
+      <p>"Ordered flowers for my mother's birthday and they reached before time. Packaging was so good, flowers stayed fresh for a full week."</p>
+      <div class="reviewer">
+        <img src="https://ui-avatars.com/api/?name=Pratyush&background=D6336C&color=fff&bold=true" alt="Pratyush">
+        <div><h4>Pratyush</h4><span>Verified Buyer</span></div>
+      </div>
+    </article>
+
+    <article class="review-card">
+      <div class="stars">★★★★★</div>
+      <p>"Best flower shop near Mohali honestly. I ordered the red rose bunch for an anniversary gift and it looked even better than the photo."</p>
+      <div class="reviewer">
+        <img src="https://ui-avatars.com/api/?name=Sahil&background=E4A951&color=fff&bold=true" alt="Sahil">
+        <div><h4>Sahil</h4><span>Verified Buyer</span></div>
+      </div>
+    </article>
+
+    <article class="review-card">
+      <div class="stars">★★★★☆</div>
+      <p>"Good quality flowers and quick delivery. Would've given 5 stars but I wish they had more vase options too."</p>
+      <div class="reviewer">
+        <img src="https://ui-avatars.com/api/?name=Yash&background=6c9b7d&color=fff&bold=true" alt="Yash">
+        <div><h4>Yash</h4><span>Verified Buyer</span></div>
+      </div>
+    </article>
+
+    <article class="review-card">
+      <div class="stars">★★★★★</div>
+      <p>"I've ordered three times now for office events and every single time the bouquets have been fresh and exactly on time."</p>
+      <div class="reviewer">
+        <img src="https://ui-avatars.com/api/?name=Pritam&background=4a6fa5&color=fff&bold=true" alt="Pritam">
+        <div><h4>Pritam</h4><span>Verified Buyer</span></div>
+      </div>
+    </article>
+
+    <article class="review-card">
+      <div class="stars">★★★★★</div>
+      <p>"The gift wrapping was such a nice touch, and the message card made it feel personal. Highly recommend Petal & Co."</p>
+      <div class="reviewer">
+        <img src="https://ui-avatars.com/api/?name=Anish&background=a85b6a&color=fff&bold=true" alt="Anish">
+        <div><h4>Anish</h4><span>Verified Buyer</span></div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+
+<section id="contact" class="contact">
+  <p class="eyebrow-line center">Get In Touch</p>
+  <h2 class="center">Contact Us</h2>
+
+  <div class="contact-wrap">
+    <form class="contact-form">
+      <label for="c-name">Name</label>
+      <input type="text" id="c-name" name="name" placeholder="Your full name" required>
+
+      <label for="c-email">Email</label>
+      <input type="email" id="c-email" name="email" placeholder="you@example.com" required>
+
+      <label for="c-phone">Phone Number</label>
+      <input type="tel" id="c-phone" name="phone" placeholder="+91 98765 43210">
+
+      <label for="c-msg">Message</label>
+      <textarea id="c-msg" name="message" rows="5" placeholder="Tell us about the occasion..." required></textarea>
+
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+      <h3>Visit Our Shop</h3>
+      <p>Shop 12, Sector 71 Market<br>Mohali, Punjab - 160071</p>
+      <p><strong>Phone:</strong> +91 98765 43210</p>
+      <p><strong>Email:</strong> hello@petalandco.in</p>
+      <p><strong>Hours:</strong> 9:00 AM – 8:00 PM, all days</p>
+
+      
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+
+  
+  <div class="developer-block">
+    <img src="assets/my-photo.jpg" alt="Ayush Raj" class="dev-avatar">
+    <div class="dev-text">
+      <h3>About Me</h3>
+      <p>
+        Hi, I'm <strong>Ayush Raj</strong> — a B.Tech CSE student, Core
+        Section A, at CGC University, Mohali. This flower shop website was
+        built as a college project using only HTML and CSS, to practice
+        layout, responsive design and styling without any frameworks.
+      </p>
+      <div class="dev-links">
+        <a href="https://github.com/ayushraj623" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/ayushraj3451t" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:ayushraj1100011@gmail.com">Email</a>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="footer-columns">
+    <div>
+      <h4>Petal &amp; Co.</h4>
+      <p>Fresh, farm-cut flowers delivered across Mohali &amp; Chandigarh.</p>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#reviews">Reviews</a>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <a href="#contact">Sector 71, Mohali</a>
+      <a href="#contact">+91 98765 43210</a>
+      <a href="#contact">hello@petalandco.in</a>
+    </div>
+  </div>
+
+  <p class="copyright">© 2026 Petal &amp; Co. — Built by Ayu for a college project. All rights reserved.</p>
+</footer>
+
+
+<label for="cart-toggle" class="drawer-overlay"></label>
+<aside class="cart-drawer">
+  <div class="drawer-head">
+    <h3>Your Cart</h3>
+    <label for="cart-toggle" class="drawer-close">&times;</label>
+  </div>
+  <div class="drawer-item"><span>Blush Rose Bouquet</span><span>₹649</span></div>
+  <div class="drawer-item"><span>Classic Red Rose Bunch</span><span>₹749</span></div>
+  <div class="drawer-item"><span>Gift Wrapped Roses</span><span>₹899</span></div>
+  <div class="drawer-total"><span>Total</span><span>₹2,297</span></div>
+  <a href="#" class="btn btn-primary drawer-checkout">Proceed to Checkout</a>
+</aside>
+
+</body>
+</html>
